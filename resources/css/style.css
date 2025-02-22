@@ -377,10 +377,12 @@ header .mobile {
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
+  height: 20vh;
 }
 .quote {
   justify-content: center;
   align-content: end;
+  margin-bottom: -80px;
 }
 #quotes-section quote-citation {
   height: 1.875rem;
@@ -406,6 +408,7 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  font-size: 12px;
 }
 
 footer .content {
