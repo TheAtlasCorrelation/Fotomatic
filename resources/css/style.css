@@ -6,7 +6,6 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem;
-  /* To offset for fixed header. */
 }
 
 .center {
@@ -39,6 +38,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  position: absolute;
 }
 
 header .content {
@@ -213,14 +213,19 @@ header .mobile {
 }
 
 .product-image-1 {
-  height: 436px;
+  height: 400px;
+  width: 37.5vw;
 
 }
 
 .product-image-2 {
-  height: 436px;
+  height: 400px;
+  width: 37.5vw;
 }
-
+.content-1 {
+  margin-top: 40px;
+  margin-left: -20vw;
+}
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -233,12 +238,14 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin-top: 5px;
 }
 
 .feature h2 {
