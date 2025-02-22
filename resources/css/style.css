@@ -38,7 +38,6 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  position: absolute;
 }
 
 header .content {
@@ -321,14 +320,17 @@ header .mobile {
   padding: 0 1%;
   display: flex;
 }
+
 .image-container {
   background-position: center;
-    width: 1000px;
-    height: 25vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;;
+  width: 1000px;
+  height: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  ;
 }
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -359,6 +361,14 @@ header .mobile {
   }
 }
 
+.quote {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content-center {
+  padding: 80px;
+}
 
 #quotes-section {
   background-color: #f3f3f3;
@@ -366,7 +376,7 @@ header .mobile {
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 #quotes-section .quote {
@@ -379,11 +389,7 @@ header .mobile {
   color: #4a4a4a;
   height: 20vh;
 }
-.quote {
-  justify-content: center;
-  align-content: end;
-  margin-bottom: -80px;
-}
+
 #quotes-section quote-citation {
   height: 1.875rem;
 }
@@ -401,7 +407,7 @@ header .mobile {
   #quotes-section quote-citation {
     display: block;
     padding-top: 1rem;
-    margin: auto;
+    margin-top: 80px;
   }
 }
 
@@ -415,6 +421,7 @@ footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
+  font-size: ;
 }
 
 footer .copyright {
