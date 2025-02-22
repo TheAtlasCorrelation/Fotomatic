@@ -212,20 +212,6 @@ header .mobile {
   }
 }
 
-.product-image-1 {
-  height: 400px;
-  width: 37.5vw;
-
-}
-
-.product-image-2 {
-  height: 400px;
-  width: 37.5vw;
-}
-.content-1 {
-  margin-top: 40px;
-  margin-left: -20vw;
-}
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -287,6 +273,25 @@ header .mobile {
   }
 }
 
+.product-image-1 {
+  height: 400px;
+  width: 37.5vw;
+
+}
+
+.product-image-2 {
+  height: 400px;
+  width: 37.5vw;
+}
+
+.content-1 {
+  margin-top: 40px;
+  margin-left: -5vw;
+}
+
+.content-2 {
+  margin-top: 40px;
+}
 
 #filters-section {
   padding: 4rem 0;
@@ -314,8 +319,16 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
-
+.image-container {
+  background-position: center;
+    width: 1000px;
+    height: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;;
+}
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -349,13 +362,15 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  height: 180px;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
+  padding-top: 200px;
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -363,7 +378,10 @@ header .mobile {
   font-style: italic;
   color: #4a4a4a;
 }
-
+.quote {
+  justify-content: center;
+  align-content: end;
+}
 #quotes-section quote-citation {
   height: 1.875rem;
 }
