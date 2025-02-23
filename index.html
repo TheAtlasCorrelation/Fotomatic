@@ -7,11 +7,18 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="./resources/css/style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
+  <!-- Header -->
   <header>
     <div class="content">
       <a href="index.html" class="desktop logo">Fotomatic</a>
@@ -28,15 +35,17 @@
           <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
           <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
           <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
-          <li><a href="#" class="button">Join us</a></li>
+          <li><a href="#" id='tablet' class="button">Join us</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!-- Main Content -->
   <div class="main-content">
+
+    <!-- Sign Up Section -->
     <div id="sign-up-section" class="banner">
-      <img src="./resources/images/banner-landingpage.jpg" id="sign-up-background-image">
       <div id="sign-up-cta">
         <div class="content center">
           <div class="header">
@@ -53,15 +62,14 @@
       </div>
     </div>
 
+    <!-- Features Section -->
     <div id="features-section">
       <div class="feature">
         <div class="center">
           <div class="image-container">
-
-            <img src="resources/images/feature-1.png" class="product-image-1"/>
-
+            <img src="./resources/images/feature-1.png" />
           </div>
-          <div class="content-1">
+          <div class="content">
             <h2>Advanced, automatic, instant</h2>
             <h3>Shutter speed, apperture and flash output adjust automatically</h3>
           </div>
@@ -70,11 +78,9 @@
       <div class="feature">
         <div class="center">
           <div class="image-container">
-
-            <img src="resources/images/feature-2.png" class="product-image-2"/>
-
+            <img src="./resources/images/feature-2.png" />
           </div>
-          <div class="content-2">
+          <div class="content">
             <h2>Beautifully crafted inside-out</h2>
             <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise
             </h3>
@@ -83,6 +89,7 @@
       </div>
     </div>
 
+    <!-- Filters Section -->
     <div id="filters-section">
       <div class="content center">
         <h2>Over 20+ filters to choose from</h2>
@@ -104,13 +111,15 @@
       </div>
     </div>
 
+    <!-- Quotes Section -->
     <div id="quotes-section">
       <div class="content center">
-        <span class="quote">“It's truly something that could create a brand new photography Renaissance”</span>
+        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
         <img class="quote-citation" src="./resources/images/photography-logo.png" />
       </div>
     </div>
 
+    <!-- Footer -->
     <footer>
       <div class="content">
         <span class="copyright">© 2016 Fotomatic, All Rights Reserved</span>
